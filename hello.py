@@ -20,4 +20,10 @@ n=0
 while n<50:
     print(n)
     n+=1
+def addAnB(a,b):
+    print("this is my function")
+    return a+2*b
+print(addAnB(4,2))
+    
+
     
