@@ -6,3 +6,6 @@ print(a+b)
 for n in range(0,40):
    print(n)
 fruitlist = ["apple","banana","grape"]
+for fruit in fruitlist 
+    print(fruit)
+    
