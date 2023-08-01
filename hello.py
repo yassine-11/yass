@@ -24,6 +24,14 @@ def addAnB(a,b):
     print("this is my function")
     return a+2*b
 print(addAnB(4,2))
-    
+file1 = open ('data1.txt','r')
+lines = file1.readlines()
+print(lines)
+for line in lines:
+    #print(line)
+    column = line.split(",")
+    #print(column[1])
+    if int(column[1]) > 30:
+        print(line)
 
     
